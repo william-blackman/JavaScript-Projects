@@ -13,5 +13,9 @@ function add (a,b) { //adding function
     return a + b
 };
 
+function buttonColor() {
+    document.getElementById("BuyButton").style.backgroundColor= 'blue';
+    document.getElementById("BuyButton").style.color= 'white';
+}
 
 document.write(add(x,y)); //calls add function to add a & b
