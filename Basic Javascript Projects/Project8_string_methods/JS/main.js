@@ -39,7 +39,7 @@ function str7() { //truncates pi to 5 decimal places and makes it a string
 
 function str8() { //converts 10 to its primitive value
     var x = 10;
-    var y = x.valueOf()
+    var y = x.valueOf();
     document.getElementById("str8").innerHTML = y;
-    console.log(typeof(y))
+    console.log(typeof(y));
 }
