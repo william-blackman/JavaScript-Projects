@@ -42,18 +42,18 @@ function tribal_enrollment(native, tribe, active, history) { //testing reserved 
     this.history = history;
 }
 
-var William = new tribal_enrollment("yes","Gwich\'ee Zhee","active","recent")
+var William = new tribal_enrollment("yes","Gwich\'ee Zhee","active","recent");
 
 function enrollment() {
-    document.getElementById("enrollment").innerHTML = William.default
+    document.getElementById("enrollment").innerHTML = William.default;
 }
 
 function adding() { //creating a nested function
-    document.getElementById("Nested_Function").innerHTML = add()
+    document.getElementById("Nested_Function").innerHTML = add();
     function add() {
         var num1 = 8.5;
         function plus_one() {num1++};
         plus_one();
-        return num1
+        return num1;
     }
 }
