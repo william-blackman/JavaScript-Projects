@@ -2,7 +2,7 @@ window.alert('Hello, World!');  //Opens a popup window to say Hello, world!
 
 document.write('Hello, world!  ');  //Prints Hello, world in the browser
 
-var var1 = "This is a string with a quote: \"I had a dream\"." + "--Martin Luther King"; var2 = "The King"; // strings assigned to variables
+var var1 = "This is a string with a quote: \"I have a dream\"." + "--Martin Luther King"; var2 = "The King"; // strings assigned to variables
 
 var Sent1 = "This is the beginning of the string", Sent2 = " and this is the end of the string. "; //more strings assinged to variables
 
