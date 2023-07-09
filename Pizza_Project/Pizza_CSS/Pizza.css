@@ -1,0 +1,71 @@
+#menuBG {
+    width: 600px;
+    height: 470px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top:0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: maroon;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
