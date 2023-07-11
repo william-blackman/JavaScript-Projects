@@ -5,6 +5,7 @@
 </head>
     <script>
         $(document).ready(function() {
+            //adds html to the document once it is loaded
             $('html').append(
                 "<body>\
                     <div id='container'>\
@@ -17,10 +18,13 @@
                     </div>\
                 </body>"
             )
+            //changes Paragraph 2 to red
             $("#2").css({"color":"red"});
+            //hides the h1 element when the id=3 element is clicked
             $("#3").click(function() {
                 $('h1').hide();
             });
+            //when the id=2 element is clicked the console logs the timestamp and element that was clicked and then fades out
             $("#2").on("click", function() {
                 console.log(event.timeStamp);
                 console.log(event.target);
